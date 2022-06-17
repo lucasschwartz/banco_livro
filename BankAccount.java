@@ -70,7 +70,7 @@ public class BankAccount
     }
     
     /**
-     * 
+     * Retira o saldo de uma conta e adiciona a outra
      */
     public void transferTo(BankAccount toAccount, double amount){
         if (this.balance >= amount) {
